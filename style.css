@@ -1,0 +1,25 @@
+li:has(span.friend){
+    color: lightblue;
+    font-style: italic;
+
+}
+
+li:has(span.colleague){
+    color: aliceblue;
+    font-style: italic;
+}
+
+.body {
+    background-color: rgb(244, 194, 234);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: rgb(231, 186, 235);
+    border-radius: 10px;
+}
