@@ -52,9 +52,10 @@ form.addEventListener("submit", function(event) {
     const editButton = document.createElement("button");
     editButton.textContent = "Edit";
     editButton.addEventListener("click", function(){
+        console.log("Edit button clicked");
     const newName = prompt("Edit name?");
     if(typeof newName ==="string" && newName.trim()!=="") {
-        listItem.firstChild.textContent =`${newName}(${category.value})`;//name update
+        listItem.textContent =`${newName}(${category.value}) (Not Attending)`;//name update
     }
     });
 
